@@ -1,0 +1,27 @@
+<form>
+  <h1>DELETAR LIVROS</h1>
+
+  <mat-form-field class="formcat">
+    <mat-label>Título</mat-label>
+    <input matInput [(ngModel)]="livro.titulo" type="text" name="titulo" disabled="true">
+  </mat-form-field>
+  <mat-form-field class="formcat">
+    <mat-label>Autor</mat-label>
+    <input matInput matInput [(ngModel)]="livro.nome_autor" type="text" name="nome_autor" disabled="true">
+  </mat-form-field>
+  <mat-form-field class="formcat">
+    <mat-label>Descrição</mat-label>
+    <input matInput [(ngModel)]="livro.descricao" type="text" name="descricao" disabled="true">
+  </mat-form-field>
+  <mat-form-field class="formcat">
+    <mat-label>Texto</mat-label>
+    <textarea matInput [(ngModel)]="livro.texto" type="text" name="texto" disabled="true"></textarea>
+  </mat-form-field>
+  <div class="buttons">
+    <button (click)="deletar()"  class="mat-elevation-z8" mat-raised-button color="primary">Deletar</button>
+
+    <button (click)="cancel()" class="mat-elevation-z8" mat-raised-button color="warn">Cancelar</button>
+  </div>
+</form>
+
+

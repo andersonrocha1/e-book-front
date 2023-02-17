@@ -1,0 +1,44 @@
+.content{
+  width: 90%;
+  margin: 1.4rem auto auto auto;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title h1{
+  font-size: 2rem;
+  color: floralwhite;
+  font-weight: 500;
+}
+
+.stroked-button{
+margin-bottom: .7rem;
+background-color:cyan;
+
+}
+
+.table{
+  width: 100%;
+}
+
+.livroicon{
+color: lightcoral;
+margin-left: .5rem;
+}
+
+.edit{
+color: dodgerblue;
+
+}
+
+.delete{
+color: brown;
+
+}
+
+.mat-header{
+width: 5rem;
+}
