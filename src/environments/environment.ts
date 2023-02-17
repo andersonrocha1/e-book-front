@@ -1,4 +1,4 @@
 export const environment = {
-  production: true,
+  production: false,
   BASE_URL: 'https://ebookstore-api-production.up.railway.app/'
 };
